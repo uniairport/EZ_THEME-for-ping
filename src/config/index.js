@@ -29,7 +29,7 @@ export const config  = {
         // 支持字符串形式(单个API地址)或数组形式(多个备选API地址)
         // 多个地址时，会按顺序检测可用性，并使用第一个可用的地址
         staticBaseUrl: [
-            'https://apiapi.kunpengjiasu.net/api/v1'
+            'https://apiapi.pingnetwork.org/api/v1'
         ],
       
         // 自动获取模式配置 (urlMode = 'auto'时使用)
@@ -64,10 +64,10 @@ export const config  = {
 
     // ====================  网站基础配置  ====================
     SITE_CONFIG: {
-        siteName: 'Kun Peng Network',
-        siteDescription: '云游无界，图揽天下。',
+        siteName: 'Ping Network',
+        siteDescription: 'Ping通全球的互联服务',
         // copyright会自动使用当前年份
-        copyright: `© ${new Date().getFullYear()} Yun Tu. All Rights Reserved.`,
+        copyright: `© ${new Date().getFullYear()} Ping Network. All Rights Reserved.`,
 
         // 是否显示标题中的网站Logo (true=显示, false=隐藏)
         showLogo: false,
@@ -99,7 +99,7 @@ export const config  = {
         defaultTheme: 'dark',
 
         // 主题色 (16进制颜色值)
-        primaryColor: '#8D6C73',
+        primaryColor: '#ECAA88',
 
         // 是否启用落地页 (true=启用, false=禁用)
         enableLandingPage: true // 默认启用
@@ -128,7 +128,7 @@ export const config  = {
             title: "请收藏最新永久官网",
 
             // 弹窗内容 (支持HTML)
-            content: `<p><strong>其余官网可能无法访问，请收藏 <a href="https://kunpengjiasu.com" target="_blank" rel="noopener noreferrer">https://kunpengjiasu.com</a> 为永久官网</strong></p>`,
+            content: `<p><strong>其余官网可能无法访问，请收藏 <a href="https://pingnetwork.org" target="_blank" rel="noopener noreferrer">https://pingnetwork.org</a> 为永久官网</strong></p>`,
 
             // 冷却时间（小时），在此时间内不会再次显示弹窗
             cooldownHours: 1,
@@ -178,7 +178,7 @@ export const config  = {
         showPlanFeatureCards: true, // 默认显示
 
         // 是否自动选择周期最大的标签，设为false则不会自动选择
-        autoSelectMaxPeriod: false, // 默认关闭
+        autoSelectMaxPeriod: true, // 默认关闭
 
         // 是否隐藏周期选择标签 (true=隐藏, false=显示)
         hidePeriodTabs: false, // 默认显示周期选择标签
@@ -222,7 +222,7 @@ export const config  = {
         // 下单前二次确认
         confirmOrder: false,
         // 下单前二次确认内容
-        confirmOrderContent: "<p><strong style='color: red'>无法提供相关教程和使用说明。</strong></p><p><strong style='color: red'>不会使用请勿购买，没有退款政策</strong></p>",
+        confirmOrderContent: "<p><strong style='color: red'>特殊商品无法支持退换，如有不懂可咨询客服。</strong></p><p><strong style='color: red'>不会使用请勿购买，没有退款政策</strong></p>",
 
     },
     // 仪表盘页面配置
